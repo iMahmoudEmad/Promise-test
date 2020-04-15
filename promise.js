@@ -1,4 +1,4 @@
-function myPromise1() {
+function myPromise() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(10);
